@@ -134,3 +134,6 @@ BOARD_USES_QCOM_HARDWARE := true
 
 # Security patch level
 VENDOR_SECURITY_PATCH := 2020-12-01
+
+# SELinux
+BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy-minimal
