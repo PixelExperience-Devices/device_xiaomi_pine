@@ -415,6 +415,16 @@ function enable_swap() {
         if [ ! -f /data/vendor/swap/swapfile ]; then
             dd if=/dev/zero of=/data/vendor/swap/swapfile bs=1m count=200
         fi
+
+        # ZRAM may use more memory than it saves if SLAB_STORE_USER
+        # debug option is enabled.
+        if [ -e /sys/kernel/slab/zs_handle ]; then
+            echo 0 > /sys/kernel/slab/zs_handle/store_user
+        fi
+        if [ -e /sys/kernel/slab/zspage ]; then
+            echo 0 > /sys/kernel/slab/zspage/store_user
+        fi
+
         mkswap /data/vendor/swap/swapfile
         swapon /data/vendor/swap/swapfile -p 32758
     fi
