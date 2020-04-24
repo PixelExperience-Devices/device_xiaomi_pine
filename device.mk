@@ -58,6 +58,7 @@ PRODUCT_PACKAGES += \
     dhcpcd.conf \
     wcnss_service \
     wificond \
+    WifiOverlay \
     wpa_supplicant \
     wpa_supplicant.conf
 
