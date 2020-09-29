@@ -116,6 +116,9 @@ OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
 # DRM
 TARGET_ENABLE_MEDIADRM_64 := true
 
+# Enable real time lockscreen charging current values
+BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
+
 # Filesystem
 TARGET_USERIMAGES_USE_F2FS := true
 TARGET_USERIMAGES_USE_EXT4 := true
