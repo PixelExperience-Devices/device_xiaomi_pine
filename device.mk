@@ -134,7 +134,6 @@ PRODUCT_PACKAGES += \
     hwcomposer.msm8937 \
     memtrack.msm8937 \
     libdisplayconfig \
-    liboverlay \
     libqdMetaData \
     libqdMetaData.system \
     libgenlock \
