@@ -358,10 +358,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_HOST_PACKAGES += \
     signapk
 
-# TextClassifier smart selection model files
-PRODUCT_PACKAGES += \
-    textclassifier.bundle1
-
 # Thermal
 PRODUCT_PACKAGES += \
     android.hardware.thermal@1.0-impl \
