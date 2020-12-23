@@ -14,6 +14,7 @@ $(call inherit-product, device/xiaomi/pine/device.mk)
 
 # Inherit some PixelExperience stuff.
 TARGET_BOOT_ANIMATION_RES := 720
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
