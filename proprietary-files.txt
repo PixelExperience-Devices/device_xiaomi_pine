@@ -2748,11 +2748,10 @@ vendor/lib64/vendor.display.config@1.6.so
 vendor/lib64/vendor.display.config@1.7.so
 vendor/lib64/vendor.xiaomi.hardware.displayfeatureqservice@1.0.so
 
-# Display-calibration
-vendor/etc/qdcm_calib_data_ft8006s_hdplus_c3i_video_mode_dsi_panel.xml
-vendor/etc/qdcm_calib_data_ili9881h_hdplus_c3i_video_mode_dsi_panel.xml
-vendor/etc/qdcm_calib_data_nvt36525b_hdplus_c3i_video_mode_dsi_panel.xml
-
+# Display-calibration - from pine-user-10-QKQ1.191014.001-V12.0.1.0.QCMMIXM-release-keys
+vendor/etc/qdcm_calib_data_ili9881c_hdplus_c3e_video_mode_dsi_panel.xml
+vendor/etc/qdcm_calib_data_ili9881d_hdplus_c3e_video_mode_dsi_panel.xml
+vendor/etc/qdcm_calib_data_jd9365z_hdplus_c3e_video_mode_dsi_panel.xml
 # ESE-Powermanager
 product/lib/vendor.qti.esepowermanager@1.0.so
 product/lib64/vendor.qti.esepowermanager@1.0.so
