@@ -116,6 +116,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/component-overrides.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sysconfig/component-overrides.xml
 
+# Configstore
+PRODUCT_PACKAGES += \
+    android.hardware.configstore@1.1-service
+
 # GPS
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/gps/apdr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/apdr.conf \
