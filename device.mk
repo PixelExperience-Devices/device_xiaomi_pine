@@ -91,6 +91,13 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/sound_trigger_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_platform_info.xml \
     $(LOCAL_PATH)/audio/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_policy_configuration.xml
 
+# Binder
+PRODUCT_PACKAGES += \
+    libhwbinder \
+    libhwbinder.vendor \
+    libhidltransport \
+    libhidltransport.vendor
+
 # Bluetooth
 PRODUCT_PACKAGES += \
     audio.bluetooth.default \
