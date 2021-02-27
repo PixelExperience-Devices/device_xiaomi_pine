@@ -138,5 +138,12 @@ VENDOR_SECURITY_PATCH := 2020-12-01
 # SELinux
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy-minimal
 
+# VNDK
+BOARD_VNDK_RUNTIME_DISABLE := true
+BOARD_VNDK_VERSION := current
+BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
+PRODUCT_FULL_TREBLE_OVERRIDE := true
+PRODUCT_VENDOR_MOVE_ENABLED := true
+
 # Inherit from the proprietary version
 -include vendor/xiaomi/pine/BoardConfigVendor.mk
