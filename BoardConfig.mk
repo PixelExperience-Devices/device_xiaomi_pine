@@ -92,6 +92,9 @@ BOARD_QTI_CAMERA_32BIT_ONLY := true
 # Charger
 BOARD_CHARGER_DISABLE_INIT_BLANK := true
 
+# CNE / DPM
+BOARD_USES_QCNE := true
+
 # Dexpreopt
 ifeq ($(HOST_OS),linux)
   ifneq ($(TARGET_BUILD_VARIANT),eng)
