@@ -366,6 +366,10 @@ PRODUCT_PACKAGES += \
     android.hardware.vibrator@1.0-impl \
     android.hardware.vibrator@1.0-service
 
+# VNDK
+PRODUCT_PACKAGES += \
+    vndk_package
+
 # Whitelisted apps
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/permissions/qti_whitelist.xml:system/etc/sysconfig/qti_whitelist.xml
