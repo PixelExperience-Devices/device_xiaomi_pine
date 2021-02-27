@@ -105,6 +105,16 @@ ifeq ($(HOST_OS),linux)
   endif
 endif
 
+# Display
+TARGET_USES_ION := true
+TARGET_USES_GRALLOC1 := true
+TARGET_USES_HWC2 := true
+
+MAX_EGL_CACHE_KEY_SIZE := 12*1024
+MAX_EGL_CACHE_SIZE := 2048*1024
+
+OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
+
 # Filesystem
 TARGET_USERIMAGES_USE_F2FS := true
 TARGET_USERIMAGES_USE_EXT4 := true
