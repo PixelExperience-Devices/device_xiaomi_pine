@@ -137,3 +137,6 @@ VENDOR_SECURITY_PATCH := 2020-12-01
 
 # SELinux
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy-minimal
+
+# Inherit from the proprietary version
+-include vendor/xiaomi/pine/BoardConfigVendor.mk
