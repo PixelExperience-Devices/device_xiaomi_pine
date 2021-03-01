@@ -7,6 +7,8 @@ ro.af.client_heap_size_kbyte=7168
 
 # Bluetooth
 vendor.bluetooth.soc=pronto
+persist.bluetooth.bluetooth_audio_hal.disabled=true 
+ro.bluetooth.library_name=libbluetooth_qti.so
 
 # Camera
 persist.vendor.camera.expose.aux=1
