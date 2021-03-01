@@ -150,44 +150,6 @@ vendor/etc/acdbdata/QRD/sdm439-sku1-snd-card/SDM439_SKU1_Headset_cal.acdb
 vendor/etc/acdbdata/QRD/sdm439-sku1-snd-card/SDM439_SKU1_Speaker_cal.acdb
 vendor/etc/acdbdata/QRD/sdm439-sku1-snd-card/SDM439_SKU1_workspaceFile.qwsp
 
-# Audio-Hardware
-vendor/bin/hw/android.hardware.audio@2.0-service
-vendor/etc/init/android.hardware.audio@2.0-service.rc
-vendor/lib/android.hardware.audio.common-util.so
-vendor/lib/android.hardware.audio.common@2.0-util.so
-vendor/lib/android.hardware.audio.common@4.0-util.so
-vendor/lib/android.hardware.audio.common@5.0-util.so
-vendor/lib/hw/android.hardware.audio.effect@2.0-impl.so
-vendor/lib/hw/android.hardware.audio.effect@4.0-impl.so
-vendor/lib/hw/android.hardware.audio.effect@5.0-impl.so
-vendor/lib/hw/android.hardware.audio@2.0-impl.so
-vendor/lib/hw/android.hardware.audio@4.0-impl.so
-vendor/lib/hw/android.hardware.audio@5.0-impl.so
-vendor/lib/hw/audio.primary.default.so
-vendor/lib/hw/audio.primary.msm8937.so
-vendor/lib/hw/audio.r_submix.default.so
-vendor/lib/hw/audio.usb.default.so
-vendor/lib/soundfx/libqcompostprocbundle.so
-vendor/lib/soundfx/libqcomvisualizer.so
-vendor/lib/soundfx/libqcomvoiceprocessing.so
-vendor/lib64/android.hardware.audio.common-util.so
-vendor/lib64/android.hardware.audio.common@2.0-util.so
-vendor/lib64/android.hardware.audio.common@4.0-util.so
-vendor/lib64/android.hardware.audio.common@5.0-util.so
-vendor/lib64/hw/android.hardware.audio.effect@2.0-impl.so
-vendor/lib64/hw/android.hardware.audio.effect@4.0-impl.so
-vendor/lib64/hw/android.hardware.audio.effect@5.0-impl.so
-vendor/lib64/hw/android.hardware.audio@2.0-impl.so
-vendor/lib64/hw/android.hardware.audio@4.0-impl.so
-vendor/lib64/hw/android.hardware.audio@5.0-impl.so
-vendor/lib64/hw/audio.primary.default.so
-vendor/lib64/hw/audio.primary.msm8937.so
-vendor/lib64/hw/audio.r_submix.default.so
-vendor/lib64/hw/audio.usb.default.so
-vendor/lib64/soundfx/libqcompostprocbundle.so
-vendor/lib64/soundfx/libqcomvisualizer.so
-vendor/lib64/soundfx/libqcomvoiceprocessing.so
-
 # Bluetooth
 product/lib/com.qualcomm.qti.bluetooth_audio@1.0.so
 product/lib/vendor.qti.hardware.bluetooth_audio@2.0.so
@@ -377,11 +339,6 @@ vendor/lib64/vendor.qti.hardware.cvp@1.0.so
 lib64/libseemore.so
 product/lib/vendor.qti.hardware.camera.device@1.0.so
 product/lib64/vendor.qti.hardware.camera.device@1.0.so
-vendor/bin/hw/android.hardware.camera.provider@2.4-service
-vendor/etc/init/android.hardware.camera.provider@2.4-service.rc
-vendor/lib/android.hardware.camera.provider@2.4-external.so
-vendor/lib/android.hardware.camera.provider@2.4-legacy.so
-vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so
 vendor/lib/hw/camera.msm8937.so
 vendor/lib/libc++_shared.so
 vendor/lib/libcamera2ndk_vendor.so
@@ -419,17 +376,12 @@ vendor/lib/libvideoutils.so
 vendor/lib/libXMFD_AgeGender.so
 vendor/lib/lib_lowlight.so
 vendor/lib/mibokeh_439_opencl.bin
-vendor/lib/vendor.qti.hardware.camera.device@1.0.so
-vendor/lib64/android.hardware.camera.provider@2.4-external.so
-vendor/lib64/android.hardware.camera.provider@2.4-legacy.so
-vendor/lib64/hw/android.hardware.camera.provider@2.4-impl.so
 vendor/lib64/libcamera2ndk_vendor.so
 vendor/lib64/libcapiv2svacnn.so
 vendor/lib64/libcapiv2vop.so
 vendor/lib64/libseemore.so
 vendor/lib64/libswvdec.so
 vendor/lib64/libvideoutils.so
-vendor/lib64/vendor.qti.hardware.camera.device@1.0.so
 
 # Camera-actuators
 vendor/lib/libactuator_ad5816g.so
@@ -2704,8 +2656,6 @@ vendor/lib/hw/android.hardware.graphics.allocator@2.0-impl.so
 vendor/lib/hw/android.hardware.graphics.composer@2.1-impl.so
 vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl-2.1.so
 vendor/lib/hw/android.hardware.memtrack@1.0-impl.so
-vendor/lib/hw/gralloc.default.so
-vendor/lib/hw/gralloc.msm8937.so
 vendor/lib/hw/hwcomposer.msm8937.so
 vendor/lib/hw/memtrack.msm8937.so
 vendor/lib/libdrm.so
@@ -2724,8 +2674,6 @@ vendor/lib64/hw/android.hardware.graphics.allocator@2.0-impl.so
 vendor/lib64/hw/android.hardware.graphics.composer@2.1-impl.so
 vendor/lib64/hw/android.hardware.graphics.mapper@2.0-impl-2.1.so
 vendor/lib64/hw/android.hardware.memtrack@1.0-impl.so
-vendor/lib64/hw/gralloc.default.so
-vendor/lib64/hw/gralloc.msm8937.so
 vendor/lib64/hw/hwcomposer.msm8937.so
 vendor/lib64/hw/memtrack.msm8937.so
 vendor/lib64/libdrm.so
@@ -2746,12 +2694,12 @@ vendor/lib64/vendor.display.config@1.4.so
 vendor/lib64/vendor.display.config@1.5.so
 vendor/lib64/vendor.display.config@1.6.so
 vendor/lib64/vendor.display.config@1.7.so
-vendor/lib64/vendor.xiaomi.hardware.displayfeatureqservice@1.0.so
 
 # Display-calibration - from pine-user-10-QKQ1.191014.001-V12.0.1.0.QCMMIXM-release-keys
 vendor/etc/qdcm_calib_data_ili9881c_hdplus_c3e_video_mode_dsi_panel.xml
 vendor/etc/qdcm_calib_data_ili9881d_hdplus_c3e_video_mode_dsi_panel.xml
 vendor/etc/qdcm_calib_data_jd9365z_hdplus_c3e_video_mode_dsi_panel.xml
+
 # ESE-Powermanager
 product/lib/vendor.qti.esepowermanager@1.0.so
 product/lib64/vendor.qti.esepowermanager@1.0.so
@@ -3073,7 +3021,7 @@ vendor/lib/libMpeg4SwEncoder.so
 vendor/lib/libmulawdec.so
 vendor/lib/libOmxAacDec.so
 vendor/lib/libOmxAlacDec.so
-vendor/lib/libOmxAlacDecSw.so
+vendor/lib/libOmxAlacDecSw.so lo 0
 vendor/lib/libOmxAmrDec.so
 vendor/lib/libOmxAmrwbplusDec.so
 vendor/lib/libOmxApeDec.so
@@ -3119,31 +3067,13 @@ vendor/lib64/vendor.qti.hardware.vpp@1.1.so
 vendor/lib64/vendor.qti.hardware.vpp@1.2.so
 
 # Media-Hardware
-vendor/lib/libc2dcolorconvert.so
-vendor/lib/libmm-omxcore.so
-vendor/lib/libOmxAacEnc.so
-vendor/lib/libOmxAmrEnc.so
-vendor/lib/libOmxCore.so
-vendor/lib/libOmxEvrcEnc.so
 vendor/lib/libOmxG711Enc.so
-vendor/lib/libOmxQcelp13Enc.so
 vendor/lib/libOmxSwVdec.so
 vendor/lib/libOmxSwVencMpeg4.so
-vendor/lib/libOmxVdec.so
-vendor/lib/libOmxVenc.so
 vendor/lib/libstagefrighthw.so
-vendor/lib64/libc2dcolorconvert.so
-vendor/lib64/libmm-omxcore.so
-vendor/lib64/libOmxAacEnc.so
-vendor/lib64/libOmxAmrEnc.so
-vendor/lib64/libOmxCore.so
-vendor/lib64/libOmxEvrcEnc.so
 vendor/lib64/libOmxG711Enc.so
-vendor/lib64/libOmxQcelp13Enc.so
 vendor/lib64/libOmxSwVdec.so
 vendor/lib64/libOmxSwVencMpeg4.so
-vendor/lib64/libOmxVdec.so
-vendor/lib64/libOmxVenc.so
 vendor/lib64/libstagefrighthw.so
 
 # Pasrmanager
@@ -3774,8 +3704,6 @@ product/lib64/vendor.qti.hardware.wigig.supptunnel@1.0.so
 vendor/bin/cnss-daemon
 vendor/bin/cnss_diag
 vendor/bin/fstman
-vendor/bin/hw/android.hardware.wifi@1.0-service
-vendor/etc/init/android.hardware.wifi@1.0-service.rc
 vendor/etc/init/vendor.qti.hardware.wigig.supptunnel@1.0-service.rc
 vendor/lib/vendor.qti.hardware.wigig.netperftuner@1.0.so
 vendor/lib64/vendor.qti.hardware.wifi.hostapd@1.0.so
@@ -3819,35 +3747,22 @@ vendor/etc/wifi_log.cfg
 -vendor/app/CACertService/CACertService.apk
 vendor/bin/adpl
 vendor/bin/athdiag
-vendor/bin/cplay
 vendor/bin/diag_callback_sample
 vendor/bin/diag_dci_sample
 vendor/bin/diag_klog
 vendor/bin/diag_socket_log
 vendor/bin/diag_uart_log
-vendor/bin/dumpsys
-vendor/bin/e_loop
 vendor/bin/fmconfig
 vendor/bin/fmfactorytest
 vendor/bin/fmfactorytestserver
 vendor/bin/ftmdaemon
-vendor/bin/ftmtest
 vendor/bin/getcolorid
 vendor/bin/hal_proxy_daemon
-vendor/bin/hw/capabilityconfigstoretest
-vendor/bin/hw/displayfeatureqservice
 vendor/bin/hw/vendor.qti.hardware.qseecom@1.0-service
 vendor/bin/ipacm-diag
 vendor/bin/KmInstallKeybox
-vendor/bin/mm-qjpeg-dec-test
-vendor/bin/mm-qjpeg-enc-test
-vendor/bin/mm-qomx-idec-test
-vendor/bin/mm-qomx-ienc-test
 vendor/bin/pktlogconf
-vendor/bin/PktRspTest
 vendor/bin/qdmastatsd
-vendor/bin/qjpeg-dma-test
-vendor/bin/qmi_simple_ril_test
 vendor/bin/qseecom_sample_client
 vendor/bin/secure_ui_sample_client
 vendor/bin/sigma_dut
@@ -3869,7 +3784,6 @@ vendor/etc/hostapd/hostapd.deny
 vendor/etc/hostapd/hostapd_default.conf
 vendor/etc/init/dataadpl.rc
 vendor/etc/init/dataqti.rc
-vendor/etc/init/displayfeatureqservice.rc
 vendor/etc/init/dpmQmiMgr.rc
 vendor/etc/init/imsdatadaemon.rc
 vendor/etc/init/imsqmidaemon.rc
@@ -3888,7 +3802,6 @@ vendor/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc
 vendor/etc/init/vendor.qti.rmt_storage.rc
 vendor/etc/init/vendor.rild.rc
 vendor/etc/lm/AdaptLaunchFeature.xml
-vendor/etc/mp.ini
 vendor/etc/permissions/vendor.qti.hardware.factory.xml
 vendor/etc/SVIConfig.xml
 vendor/lib/btaudio_offload_if.so
@@ -3896,8 +3809,6 @@ vendor/lib/hw/vendor.qti.hardware.qseecom@1.0-impl.so
 vendor/lib/libcacertclient.so
 vendor/lib/libcert_parse.wpa_s.so
 vendor/lib/libcheckpid.so
-vendor/lib/libcryptfshwcommon.so
-vendor/lib/libcryptfshwhidl.so
 vendor/lib/libdiagjni.so
 vendor/lib/libfastcrc.so
 vendor/lib/libflash_gpio.so
@@ -3958,8 +3869,6 @@ vendor/lib64/libappclassifier.so
 vendor/lib64/libcacertclient.so
 vendor/lib64/libcert_parse.wpa_s.so
 vendor/lib64/libcheckpid.so
-vendor/lib64/libcryptfshwcommon.so
-vendor/lib64/libcryptfshwhidl.so
 vendor/lib64/libdiagjni.so
 vendor/lib64/libfastcrc.so
 vendor/lib64/libgameoptfeature.so
