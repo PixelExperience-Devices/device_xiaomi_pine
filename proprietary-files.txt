@@ -3707,7 +3707,6 @@ vendor/bin/diag_mdlog
 vendor/bin/displayf_bin
 vendor/bin/factory_bin
 vendor/bin/hbtp_daemon
-vendor/bin/hw/rild
 vendor/bin/mlid
 vendor/bin/mm-audio-ftm
 vendor/bin/mmid
@@ -3784,7 +3783,6 @@ vendor/etc/init/ipacm-diag.rc
 vendor/etc/init/ipacm.rc
 vendor/etc/init/netmgrd.rc
 vendor/etc/init/port-bridge.rc
-vendor/etc/init/rild.rc
 vendor/etc/init/vendor.qti.hardware.fstman@1.0-service.rc
 vendor/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc
 vendor/etc/init/vendor.qti.rmt_storage.rc
