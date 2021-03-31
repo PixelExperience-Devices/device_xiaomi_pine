@@ -49,11 +49,6 @@ vendor/lib/vendor.qti.hardware.alarm@1.0.so
 vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.alarm@1.0.so
 
-# Atrace
-vendor/bin/hw/android.hardware.atrace@1.0-service
-vendor/etc/init/android.hardware.atrace@1.0-service.rc
--vendor/etc/vintf/manifest/android.hardware.atrace@1.0-service.xml
-
 # Audio
 etc/permissions/audiosphere.xml
 -framework/audiosphere.jar
