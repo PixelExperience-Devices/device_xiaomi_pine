@@ -2959,11 +2959,9 @@ vendor/lib64/vendor.qti.hardware.vpp@1.2.so
 vendor/lib/libOmxG711Enc.so
 vendor/lib/libOmxSwVdec.so
 vendor/lib/libOmxSwVencMpeg4.so
-vendor/lib/libstagefrighthw.so
 vendor/lib64/libOmxG711Enc.so
 vendor/lib64/libOmxSwVdec.so
 vendor/lib64/libOmxSwVencMpeg4.so
-vendor/lib64/libstagefrighthw.so
 
 # Pasrmanager
 vendor/lib/vendor.qti.power.pasrmanager@1.0.so
