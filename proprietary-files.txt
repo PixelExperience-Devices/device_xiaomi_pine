@@ -2759,6 +2759,12 @@ vendor/lib/hw/gatekeeper.msm8937.so
 vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 vendor/lib64/hw/gatekeeper.msm8937.so
 
+# Gralloc - from olive-user-10-QKQ1.191014.001-V12.0.1.0.QCNMIXM-release-keys
+vendor/lib/hw/gralloc.default.so
+vendor/lib/hw/gralloc.msm8937.so
+vendor/lib64/hw/gralloc.default.so
+vendor/lib64/hw/gralloc.msm8937.so
+
 # Graphics
 vendor/lib/egl/eglSubDriverAndroid.so
 vendor/lib/egl/libEGL_adreno.so
