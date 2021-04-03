@@ -3515,24 +3515,6 @@ vendor/lib64/libmiracast.so
 vendor/lib64/libwfdhdcpcp.so
 vendor/lib64/vendor.qti.hardware.sigma_miracast@1.0.so
 
-# WiFi
-bin/iwpriv
--product/framework/vendor.qti.hardware.wigig.netperftuner-V1.0-java.jar
--product/framework/vendor.qti.hardware.wigig.supptunnel-V1.0-java.jar
-product/lib/vendor.qti.hardware.wigig.netperftuner@1.0.so
-product/lib/vendor.qti.hardware.wigig.supptunnel@1.0.so
-product/lib64/vendor.qti.hardware.wigig.netperftuner@1.0.so
-product/lib64/vendor.qti.hardware.wigig.supptunnel@1.0.so
-vendor/bin/cnss-daemon
-vendor/bin/cnss_diag
-vendor/bin/fstman
-vendor/etc/init/vendor.qti.hardware.wigig.supptunnel@1.0-service.rc
-vendor/lib/vendor.qti.hardware.wigig.netperftuner@1.0.so
-vendor/lib64/vendor.qti.hardware.wigig.netperftuner@1.0.so
-vendor/lib64/vendor.qti.hardware.wigig.supptunnel@1.0.so
-vendor/lib64/vendor.qti.hardware.wifi.hostapd@1.0.so
-vendor/lib64/vendor.qti.hardware.wifi.hostapd@1.1.so
-
 # rootdir
 vendor/bin/charge_logger
 vendor/bin/diag_mdlog
