@@ -29,12 +29,18 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="pine"
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
-PRODUCT_BUILD_PROP_OVERRIDES += PRIVATE_BUILD_DESC="pine-user 10 QKQ1.191014.001 V12.0.1.0.QCMMIXM release-keys"
+
+# Fingerprint
+BUILD_FINGERPRINT := google/redfin/redfin:11/RQ2A.210305.006/7119741:user/release-keys
+BUILD_DESCRIPTION := redfin-user 11 RQ2A.210305.006 7119741 release-keys
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.build.fingerprint=$(BUILD_FINGERPRINT)
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRIVATE_BUILD_DESC="$(BUILD_DESCRIPTION)"
 
 # Fluid flags
 PRODUCT_PRODUCT_PROPERTIES += \
 	ro.fluid.maintainer=YaAlex \
 	ro.fluid.cpu=SDM439
-
-# Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := Xiaomi/pine/pine:10/QKQ1.191014.001/V12.0.1.0.QCMMIXM:user/release-keys
