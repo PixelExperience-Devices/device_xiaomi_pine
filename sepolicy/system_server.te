@@ -1,0 +1,6 @@
+# Input devices
+r_dir_file(system_server, vendor_idc_file);
+r_dir_file(system_server, vendor_keylayout_file);
+
+# /proc
+allow system_server proc_last_kmsg:file r_file_perms;
