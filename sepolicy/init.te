@@ -9,3 +9,4 @@ allow init {
 }:file setattr;
 
 allow init sysfs_leds:lnk_file read;
+allow init proc:file write;

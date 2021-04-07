@@ -10,3 +10,5 @@ allow qti_init_shell ctl_stop_prop:property_service set;
 # Allow chown /sys/class/leds/*/secure_mode
 allow qti_init_shell sysfs:file setattr;
 allow qti_init_shell sysfs_leds:file setattr;
+
+allow qti_init_shell vfat:dir { search read write };
