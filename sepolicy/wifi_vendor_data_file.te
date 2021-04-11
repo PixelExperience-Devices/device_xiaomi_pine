@@ -1,0 +1,1 @@
+allow wifi_vendor_data_file wifi_vendor_data_file:dir { search };

@@ -1,0 +1,1 @@
+allow sysfs_mmc_host sysfs_mmc_host:file { write };

@@ -10,3 +10,4 @@ allow init {
 
 allow init sysfs_leds:lnk_file read;
 allow init proc:file write;
+allow init init:unix_stream_socket { connectto };
