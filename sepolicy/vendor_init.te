@@ -10,3 +10,8 @@ allow vendor_init {
   wifi_data_file
   wpa_socket
 }:dir { create search getattr open read setattr write add_name remove_name rmdir relabelfrom };
+
+allow vendor_init default_prop:file read;
+allow vendor_init ipa_dev:file create;
+allow vendor_init proc_cmdline:file getattr;
+allow vendor_init system_data_file:dir ioctl;
