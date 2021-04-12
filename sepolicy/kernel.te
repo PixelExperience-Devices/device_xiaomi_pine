@@ -1,5 +1,4 @@
 allow kernel kernel:capability { kill };
 
-allow kernel vfat:dir r_dir_perms;
-allow kernel vfat:file r_file_perms;
-allow kernel mnt_vendor_file:dir r_dir_perms;
+allow kernel vfat:dir { open search };
+allow kernel vfat:file { read getattr open };

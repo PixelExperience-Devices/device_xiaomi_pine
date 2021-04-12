@@ -1,12 +1,6 @@
-allow init {
-  proc_boot_reason
-  proc_last_kmsg
-}:file r_file_perms;
+allow init proc_boot_reason:file r_file_perms;
 
-allow init {
-  proc_last_kmsg
-  sysfs
-}:file setattr;
+allow init sysfs:file setattr;
 
 allow init sysfs_leds:lnk_file read;
 allow init proc:file write;
