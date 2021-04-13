@@ -1,0 +1,1 @@
+allow hal_perf_default system_server:dir search;
