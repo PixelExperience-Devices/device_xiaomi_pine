@@ -1,3 +1,4 @@
 allow hal_camera_default camera_data_file:sock_file write;
 allow hal_camera_default sysfs_kgsl:dir search;
 allow hal_camera_default sysfs_kgsl:file r_file_perms;
+allow hal_camera_default sysfs:file read;
