@@ -195,7 +195,6 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
 # SELinux
 include device/qcom/sepolicy-legacy-um/SEPolicy.mk
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
-SELINUX_IGNORE_NEVERALLOWS := true
 
 # VNDK
 BOARD_VNDK_RUNTIME_DISABLE := true
