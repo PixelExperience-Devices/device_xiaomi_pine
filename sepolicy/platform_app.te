@@ -1,0 +1,1 @@
+allow platform_app ota_package_file:dir { getattr read };

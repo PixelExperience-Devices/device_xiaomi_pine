@@ -1,1 +1,3 @@
 allow qtidataservices_app self:socket create;
+
+allow qtidataservices_app self:socket ioctl;
