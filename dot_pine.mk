@@ -20,6 +20,9 @@ TARGET_BOOT_ANIMATION_RES := 720
 # Device Maintainer
 DEVICE_MAINTAINER := AOiSPdev
 
+# FaceUnlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := dot_pine
 PRODUCT_DEVICE := pine
