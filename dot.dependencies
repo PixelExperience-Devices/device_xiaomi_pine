@@ -1,0 +1,14 @@
+[
+  {
+    "repository": "vendor_xiaomi_pine",
+    "target_path": "vendor/xiaomi/pine",
+    "branch": "dot11",
+    "remote": "dotOS-devices"
+  },
+  {
+    "repository": "kernel_xiaomi_pine",
+    "target_path": "kernel/xiaomi/pine",
+    "branch": "dot11",
+    "remote": "TTTT55"
+  }
+]
