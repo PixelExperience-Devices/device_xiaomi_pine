@@ -13,6 +13,4 @@ allow qti_init_shell sysfs_leds:file setattr;
 
 allow qti_init_shell vfat:dir { search read write open };
 
-allow qti_init_shell default_prop:file read;
-allow qti_init_shell default_prop:property_service set;
 allow qti_init_shell vfat:file getattr;

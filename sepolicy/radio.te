@@ -2,4 +2,3 @@ binder_call(radio, cnd)
 allow radio hal_datafactory_hwservice:hwservice_manager find;
 allow radio hal_iwlan_hwservice:hwservice_manager find;
 allow radio hidl_base_hwservice:hwservice_manager add;
-get_prop(radio, qcom_ims_prop)
