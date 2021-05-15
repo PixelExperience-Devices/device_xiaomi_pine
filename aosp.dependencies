@@ -10,5 +10,15 @@
     "target_path": "kernel/xiaomi/pine",
     "remote"     : "pixel-devices",
     "branch"     : "eleven"
+  },
+  {
+    "repository" : "mvaisakh/gcc-arm64",
+    "target_path": "prebuilts/gcc/linux-x86/aarch64/aarch64-elf",
+    "branch"     : "gcc-master"
+  },
+  {
+    "repository" : "mvaisakh/gcc-arm",
+    "target_path": "prebuilts/gcc/linux-x86/arm/arm-eabi",
+    "branch"     : "gcc-master"
   }
 ]
