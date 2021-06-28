@@ -1,0 +1,8 @@
+# Sensor
+type cts_sensor_prop, property_type;
+
+# Thermal
+type thermal-engine_prop, property_type;
+
+# WiFi
+type vendor_wifi_prop, property_type;

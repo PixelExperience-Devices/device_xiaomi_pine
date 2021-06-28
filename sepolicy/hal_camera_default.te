@@ -1,7 +1,0 @@
-allow hal_camera_default camera_data_file:sock_file write;
-allow hal_camera_default sysfs_kgsl:dir { search open };
-allow hal_camera_default sysfs_kgsl:file { open read watch lock };
-allow hal_camera_default sysfs:file read;
-allow hal_camera_default sysfs:file open;
-
-allow hal_camera_default sysfs:file getattr;

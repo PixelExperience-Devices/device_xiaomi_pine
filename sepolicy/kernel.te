@@ -1,4 +1,0 @@
-allow kernel kernel:capability { kill };
-
-allow kernel vfat:dir { open search };
-allow kernel vfat:file { read getattr open };

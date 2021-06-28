@@ -1,4 +1,0 @@
-allow hal_soter_qti vfat:dir search;
-allow hal_soter_qti vfat:file read;
-
-allow hal_soter_qti vfat:file open;

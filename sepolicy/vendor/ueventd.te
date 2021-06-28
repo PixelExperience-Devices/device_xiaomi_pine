@@ -1,0 +1,6 @@
+typeattribute ueventd data_between_core_and_vendor_violators;
+
+allow ueventd vfat:dir create_dir_perms;
+allow ueventd vfat:file create_file_perms;
+allow ueventd wifi_vendor_data_file:dir create_dir_perms;
+allow ueventd wifi_vendor_data_file:file create_file_perms;

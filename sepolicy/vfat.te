@@ -1,2 +1,0 @@
-allow vfat vfat:dir { open };
-allow vfat vfat:file { open  read };

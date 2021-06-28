@@ -1,0 +1,3 @@
+allow kernel kernel:capability kill;
+allow kernel vfat:dir create_dir_perms;
+allow kernel vfat:file create_file_perms;

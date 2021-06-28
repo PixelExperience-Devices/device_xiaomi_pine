@@ -1,2 +1,0 @@
-allow sysfs sysfs:dir { open };
-allow sysfs sysfs:file { open  read };

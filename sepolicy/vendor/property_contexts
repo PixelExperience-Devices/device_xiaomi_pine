@@ -1,0 +1,24 @@
+# Camera
+camera.dual.mode           u:object_r:camera_prop:s0
+persist.camera.            u:object_r:camera_prop:s0
+camera.sensor.             u:object_r:camera_prop:s0
+
+# Net
+persist.net.doxlat         u:object_r:vendor_xlat_prop:s0
+
+# QTI
+sys.post_boot.parsed       u:object_r:vendor_mpctl_prop:s0
+
+# Sensor
+persist.vendor.cts.sensors u:object_r:cts_sensor_prop:s0
+
+# TEE
+sys.listeners.registered   u:object_r:vendor_tee_listener_prop:s0
+
+# Thermal
+persist.sys.thermal.       u:object_r:thermal-engine_prop:s0
+sys.thermal.               u:object_r:thermal-engine_prop:s0
+
+# WiFi
+vendor.wlan.driver.ath     u:object_r:vendor_wifi_prop:s0
+vendor.wlan.driver.config  u:object_r:vendor_wifi_prop:s0

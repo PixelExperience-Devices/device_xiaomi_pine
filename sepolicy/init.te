@@ -1,8 +1,0 @@
-allow init proc_boot_reason:file r_file_perms;
-
-allow init sysfs:file setattr;
-
-allow init sysfs_leds:lnk_file read;
-allow init proc:file write;
-allow init init:unix_stream_socket { connectto };
-allow init proc_last_kmsg:file setattr;

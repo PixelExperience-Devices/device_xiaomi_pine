@@ -1,0 +1,6 @@
+set_prop(thermal-engine, thermal-engine_prop)
+
+allow thermal-engine property_socket:sock_file write;
+allow thermal-engine init:unix_stream_socket connectto;
+allow thermal-engine sysfs_devfreq:dir { search r_file_perms };
+allow thermal-engine sysfs_devfreq:file rw_file_perms;
