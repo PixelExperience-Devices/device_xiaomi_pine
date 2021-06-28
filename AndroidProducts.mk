@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/dot_pine.mk
+    $(LOCAL_DIR)/aosp_pine.mk
