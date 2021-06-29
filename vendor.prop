@@ -1,9 +1,3 @@
-# ADB on boot
-persist.service.adb.enable=1
-persist.service.debuggable=1
-persist.sys.usb.config=mtp,adb
-ro.adb.secure=0
-
 # Audio
 persist.vendor.audio.fluence.speaker=true
 persist.vendor.audio.fluence.voicecall=true
@@ -30,10 +24,7 @@ vendor.voice.voip.conc.disabled=true
 vendor.qcom.bluetooth.soc=pronto
 
 # Display
-debug.sf.disable_backpressure=1
 debug.sf.hw=0
-ebug.sf.enable_hwc_vds=1
-debug.sf.latch_unsignaled=1
 ro.vendor.display.cabl=0
 ro.vendor.display.sensortype=2
 
