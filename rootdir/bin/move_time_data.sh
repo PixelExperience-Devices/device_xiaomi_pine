@@ -1,4 +1,4 @@
-#!/system/bin/sh
+#!/vendor/bin/sh
 
 # Copyright (c) 2018 Qualcomm Technologies, Inc.
 # All Rights Reserved.

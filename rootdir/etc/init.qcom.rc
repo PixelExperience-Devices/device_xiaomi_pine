@@ -517,7 +517,7 @@ on property:sys.sysctl.tcp_adv_win_scale=*
     write /proc/sys/net/ipv4/tcp_adv_win_scale ${sys.sysctl.tcp_adv_win_scale}
 
 # Data Migration
-service vendor.move_wifi_data /system/bin/move_wifi_data.sh
+service vendor.move_wifi_data /vendor/bin/move_wifi_data.sh
     class main
     user  wifi
     group wifi
@@ -571,7 +571,7 @@ on charger
 on property:vendor.display.lcd_density=*
     setprop ro.sf.lcd_density ${vendor.display.lcd_density}
 
-service vendor.move_time_data /system/bin/move_time_data.sh
+service vendor.move_time_data /vendor/bin/move_time_data.sh
     class main
     user system
     group system
