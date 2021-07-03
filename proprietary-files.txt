@@ -301,8 +301,6 @@ vendor/lib64/vendor.qti.hardware.cvp@1.0.so|7a4612a52b5b75438aad176bacbead58d1fb
 
 # Camera - from olive-user 10 QKQ1.191014.001 V12.0.1.0.QCNMIXM release-keys
 lib64/libseemore.so|3ab4199cd66f857ba5cd0ada71d6d959509c3f7f
-product/lib/vendor.qti.hardware.camera.device@1.0.so|9724812afef8c6ace95686c51a4f865d6f83d0bb
-product/lib64/vendor.qti.hardware.camera.device@1.0.so|c09458fe506e08861bc3485ec0d3ce9a6f506035
 vendor/lib/hw/camera.msm8937.so|8ca04828df0a9ce72f02786f214f418387db436b
 vendor/lib/libc++_shared.so|1ec35a25d92cfc44994d696c2c1f623106888687
 vendor/lib/libcamera2ndk_vendor.so|50911b3e83c9b613dd06d51f693a889a92c1216e
@@ -2252,32 +2250,6 @@ vendor/firmware/cpp_firmware_v1_5_2.fw
 vendor/firmware/cpp_firmware_v1_6_0.fw
 vendor/firmware/cpp_firmware_v1_8_0.fw
 
-# Camera-Hardware - from olive-user-10-QKQ1.191014.001-V12.0.1.0.QCNMIXM-release-keys
-vendor/bin/hw/android.hardware.camera.provider@2.4-service|c081207fa6f78654457dc87c20fb405d3b8ba99a
-vendor/etc/init/android.hardware.camera.provider@2.4-service.rc|655b17a43029e65318a38dbfa9183f7d2621679f
-vendor/lib/android.hardware.camera.provider@2.4-external.so|3132a9c78441fc35df7b013324888ddac7e83629
-vendor/lib/android.hardware.camera.provider@2.4-legacy.so|91687da65a87b6f0802cf2601d54a39a1553f824
-vendor/lib/camera.device@1.0-impl.so|76fe465533598f7c6f34c1d54a327b90832187ec
-vendor/lib/camera.device@3.2-impl.so|ec42fadb6380048cc264cc52b386d355ffe81d1b
-vendor/lib/camera.device@3.3-impl.so|8b67d95bf0d372212731d6dd956ad31a41f83aed
-vendor/lib/camera.device@3.4-external-impl.so|2db653ea562706a89ecfeb6cdbaf95fdd28bcf2a
-vendor/lib/camera.device@3.4-impl.so|f18bd198beb7baff89bb4375757a7dcc4cd59639
-vendor/lib/camera.device@3.5-external-impl.so|1e6b6f102dcb2bf9f7fca4fb212e0fb235f8d03d
-vendor/lib/camera.device@3.5-impl.so|c6f47ba49157e826a1a122b4a1e1a984f71d37c3
-vendor/lib/vendor.qti.hardware.camera.device@1.0.so|19b9fbb8fbb53ef3445974e61e9b5d3e4705151e
-vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so|0e81ac3de944e30ffd93e8264e7b4264d8fac90b
-vendor/lib64/android.hardware.camera.provider@2.4-external.so|d08bbf159014b0617b42aa4ebf08db8c2a3f3d94
-vendor/lib64/android.hardware.camera.provider@2.4-legacy.so|6dfb731c2fc65d1586eef324676307b4d57ef282
-vendor/lib64/camera.device@1.0-impl.so|609cfe670b19e68daf00e3f17dacc877eb73a172
-vendor/lib64/camera.device@3.2-impl.so|4588fc89409727601200bf2837e5f4c1fbdbddcc
-vendor/lib64/camera.device@3.3-impl.so|943bac0d22ee097eacf7f336033dc3262468873c
-vendor/lib64/camera.device@3.4-external-impl.so|b7034e3baef08339b52fc43724cd5ec36c7ee73d
-vendor/lib64/camera.device@3.4-impl.so|62c9f7405f2caf7bde7d23e5944863318d3cb4b5
-vendor/lib64/camera.device@3.5-external-impl.so|96106bbbe4fd473ac0c3423e3b74c5824bbf7033
-vendor/lib64/camera.device@3.5-impl.so|583d9942e7479e176a2c4c6020acc7c123784fea
-vendor/lib64/vendor.qti.hardware.camera.device@1.0.so|5618109f3b5aa0e4d84e4b3d4896d9dab123f446
-vendor/lib64/hw/android.hardware.camera.provider@2.4-impl.so|8df2eba97fbd4b19d05572f90ba6b999cdf7b6f2
-
 # Camera-ois
 vendor/lib/libois_bu63165.so
 vendor/lib/libois_lc898122.so
@@ -2749,10 +2721,6 @@ vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so|ed1c26bf23ccbfe79ed07b
 vendor/lib/hw/gatekeeper.msm8937.so|7fcf8cea2a9851e8bbf6ac95315768c68124b04b
 vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so|14fd7d0fa4dc1a78db69c127cbf1f538f52d91f6
 vendor/lib64/hw/gatekeeper.msm8937.so|500e503239be65dfdd6c8c201d7e0679b7a27fa8
-
-# Gralloc - from olive-user-10-QKQ1.191014.001-V12.0.1.0.QCNMIXM-release-keys
-vendor/lib/hw/gralloc.msm8937.so|8885970ae097b698ba3f38c621baac4df58d66ed
-vendor/lib64/hw/gralloc.msm8937.so|24072a088b5b037c148a77fc2312ef9c700a0121
 
 # Graphics - from olive-user 10 QKQ1.191014.001 V12.0.1.0.QCNMIXM release-keys
 vendor/lib/egl/eglSubDriverAndroid.so|4c18b6f1ecb48c2af6e160c2cc4749974f9fa04b

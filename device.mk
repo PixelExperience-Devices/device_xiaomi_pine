@@ -84,6 +84,12 @@ PRODUCT_PACKAGES += \
     libgui_vendor \
     Snap
 
+PRODUCT_PACKAGES += \
+    android.hardware.camera.device@3.6 \
+    android.hardware.camera.provider@2.6 \
+    vendor.qti.hardware.camera.device@1.0 \
+    vendor.qti.hardware.camera.device@1.0.vendor
+
 # Component overrides
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/component-overrides.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sysconfig/component-overrides.xml
