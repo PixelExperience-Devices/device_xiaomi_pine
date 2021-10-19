@@ -1,4 +1,4 @@
-# Common device tree for Xiaomi SDM439 devices
+# Device Tree for Xiaomi Redmi 7A (pine)
 
 ```
 #

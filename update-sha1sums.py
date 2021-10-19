@@ -19,7 +19,7 @@
 from hashlib import sha1
 import sys
 
-device='sdm439-common'
+device='pine'
 vendor='xiaomi'
 
 lines = [ line for line in open('proprietary-files.txt', 'r') ]
